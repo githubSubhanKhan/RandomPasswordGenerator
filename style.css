@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: black;
+}
+.titleContainer {
+    margin-top: 100px;
+}
+.titleArea h1 {
+    color: white;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-family: "Noto Sans Mono", monospace;
+}
+
+.randomWord {
+    margin-left: 10px;
+}
+.passwordWord {
+    margin-left: 40px;
+}
+.generatorWord {
+    margin-left: 70px;
+}
+.randomWord , .passwordWord , .generatorWord {
+    margin-bottom: 10px;
+}
+.outputBoxcontainer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.outputBoxarea {
+    color: white;
+    margin-top: 50px;
+    height: 30px;
+    width: 250px;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.outputBoxarea p {
+    margin-top: 5px;
+    font-family: "Noto Sans Mono", monospace;
+    text-align: center;
+    justify-content: center;
+}
+.buttonArea {
+    padding: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#copyBtn {
+    margin-top: 50px;
+    padding: 6px;
+    margin-left: 10px;
+    font-family: "Noto Sans Mono", monospace;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    text-align: center;
+    justify-content: center;
+}
+
+#generateBtn {
+    padding: 6px;
+    margin-right: 35px;
+    font-family: "Noto Sans Mono", monospace;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+#copyBtn:hover , #generateBtn:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
